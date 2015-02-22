@@ -1,0 +1,43 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Body Mass Index</title>
+<link rel="stylesheet" href="HTMLの復習.css" type="text/css">
+</head>
+<body>
+	<h1>Body Mass Index</h1>
+
+<form action="check6.php" method="post">
+	体重:<input type="text" name="weight" value="" />kg
+	<br/><br/>
+
+	身長:<input type="text" name="height"  value="" />cm
+	<br/><br/>
+
+	<input type="submit" value="計算する" />
+	<br/><br/>
+</form>
+
+	BMI:
+	<br/><br/>
+
+	判定:
+	<br/><br/>
+
+	<h3>参考</h3>
+
+	BMI = 体重[kg]/(身長[m]^2)</br></br>
+
+	日本肥満学会の肥満基準(2000年)</br>
+
+<table>
+	<tr><th>状態</th><th>指標</th></tr>
+	<tr><td>標準体重</td><td>18.5以上、25未満</td></tr>
+	<tr><td>肥満(1度)</td><td>25以上、30未満</td></tr>
+	<tr><td>肥満(2度)</td><td>30以上、35未満</td></tr>
+	<tr><td>肥満(3度)</td><td>35以上、40未満</td></tr>
+	<tr><td>肥満(4度)</td><td>40以上</td></tr>
+</table>
+
+</body>
+</html>
